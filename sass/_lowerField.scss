@@ -1,0 +1,37 @@
+@import '_variables.scss';
+@import '_colors.scss';
+
+.lowerField {
+	width: $contentWidth;
+	height: 100px;
+	margin:auto;
+}
+.lowerFieldTxt {
+	width: 250px;
+	float: left;
+	margin-right: 30px;
+	height: 300px;
+}
+
+div .lowerFieldTxt ul {
+	list-style: none;
+	line-height: 50px;
+	color: $bottomFirstFont;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: sans-serif;
+
+	li {
+		font-size: 15px;
+		color: $bottonSecondFont;
+		line-height: 20px;
+	}
+}
+
+.dot { 
+	width: 10px;
+	height: 10px;
+}
+.a {
+	color: $bottonSecondFont;
+}
